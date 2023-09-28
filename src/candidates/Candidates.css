@@ -1,0 +1,44 @@
+.list-component {
+  height: auto;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.candidate-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.candidate-numbers input {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.candidate-numbers span {
+  padding-left: 32px;
+  color: #1d4ed8;
+}
+
+.job-types {
+  /* margin-left: 20px; Adjust the margin as needed */
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.job-types img {
+  width: 25px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.job-types hr {
+  /* width: 6px; */
+  height: 22px;
+  color: #f3f3f4;
+}

@@ -1,4 +1,34 @@
-.App {
+body {
+  background-color: #f9faff;
+}
+
+.Horizontal-flex {
+  min-height: 100vh;
+  display: flex;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  padding-top: 32px;
+  flex: 1;
+}
+
+.filters-container {
+  flex-shrink: 0;
+}
+
+.candidates-container {
+  width: 100%;
+  padding-right: 36px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
