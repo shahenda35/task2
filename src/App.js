@@ -1,9 +1,9 @@
 import "./App.css";
-import "./navbar/Navbar";
-import Navbar from "./navbar/Navbar";
+// import "./navbar/Navbar";
+import Navbar from "./navbar/Navbar.tsx";
 import Sidebar from "./sidebar/Sidebar";
-import Filters from "./filters/Filters";
-import Candidates from "./candidates/Candidates";
+import Filters from "./filters/Filters.tsx";
+import Candidates from "./candidates/Candidates.tsx";
 
 function App() {
   return (

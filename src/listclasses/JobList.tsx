@@ -1,8 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
 import "../listclasses/JobList.css";
 
-class JobList extends React.Component {
-  constructor(props) {
+interface JobListProps {
+  name: string;
+  location: string;
+  major: string;
+  hashtags?: string[];
+  tags?: string[];
+  videoAndprograms?: string[];
+}
+
+interface JobListState {
+  isChecked: boolean;
+}
+
+class JobList extends Component<JobListProps, JobListState> {
+  constructor(props: JobListProps) {
     super(props);
     this.state = {
       isChecked: false,
